@@ -25,7 +25,7 @@ const Notifcation = () => {
           { id: '#32193', text: 'Таны захиалсан хоол баталгаажлаа.', status: 'Хүлээгдэж буй', time: '24.10.19 15:25' },
           { id: '#32193', text: 'Таны захиалга хийгдэг эхэллээ.', status: 'Бэлтгэгдэж буй', time: '24.10.19 12:37' },
           { id: '#33998', text: 'Таны захиалга бэлтгэгдэж дууслаа.', status: 'Амжилттай', time: '24.10.19 13:21' },
-          { id: '#34021', text: 'Таны захиалга амжилттай хүргэгдлээ.', status: 'Амжилттай', time: '24.10.19 12:47' },
+          { id: '#34021', text: 'Таны захиалга амжилттай хүргэгдлээ.', status: 'Амжилттай', time: '24.10.19 12:50' },
         ].map(({ id, text, status, time }, index) => (
           <div key={index} className="flex w-full max-w-[1000px] min-w-[240px] justify-center rounded-lg border-2 border-gray-300 shadow-md bg-white p-4 sm:p-6">
             <div className="ml-2 sm:ml-5">
