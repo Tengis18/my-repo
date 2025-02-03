@@ -15,7 +15,6 @@ const Notifcation = () => {
           </button>
         </Link>
       </div>
-
       <div className="flex flex-col pt-4 sm:pt-6 px-4">
         <div className="text-[#441500] font-bold text-lg sm:text-xl lg:text-2xl ml-5">Мэдэгдэл</div>
       </div>
