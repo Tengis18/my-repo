@@ -1,6 +1,6 @@
 'use client';
 
-import ForgetPassword from '@/components/Forget-Password/Forget-Password';
+import Dialog from '@/components/dialogg/Dialog';
 import { useEffect, useState } from 'react';
 
 function Notification() {
@@ -14,12 +14,12 @@ function Notification() {
     return null;
   }
 
-  return <ForgetPassword />;
+  return <Dialog />;
 }
 export default function Page() {
   return (
     <div>
-      <ForgetPassword />
+      <Dialog />
     </div>
   );
 }

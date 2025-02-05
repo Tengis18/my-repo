@@ -1,7 +1,7 @@
 'use client';
 import { Close } from '../svg/Close';
 import Link from 'next/link';
-const ForgetPassword = () => {
+const Dialog = () => {
   return (
     <div className="max-w-full flex flex-col gap-10 items-center justify-center p-4" data-testid="order-page">
       <div className="flex flex-col items-center rounded-lg border border-gray-300 w-full max-w-[90%] min-w-[300px] p-4 sm:p-6">
@@ -53,4 +53,4 @@ const ForgetPassword = () => {
   );
 };
 
-export default ForgetPassword;
+export default Dialog;
