@@ -1,6 +1,6 @@
 'use client';
 
-import OrderPageComponent from '@/components/order/OrderPageComponent';
+import ForgetPassword from '@/components/Forget-Password/Forget-Password';
 import { useEffect, useState } from 'react';
 
 function Notification() {
@@ -14,12 +14,12 @@ function Notification() {
     return null;
   }
 
-  return <OrderPageComponent />;
+  return <ForgetPassword />;
 }
 export default function Page() {
   return (
     <div>
-      <OrderPageComponent />
+      <ForgetPassword />
     </div>
   );
 }
